@@ -1,0 +1,251 @@
+html {
+    font-family: Microsoft YaHei, sans-serif, Arial;
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+/* .done{
+    color: gray;
+    text-decoration: line-through;
+} */
+
+/* 实现三栏布局  alltodos needtobedone input-contents*/
+.alltodos {
+    /* background: #e6f9ff; */
+
+    width: 33%;     /*占据屏幕的1/3*/
+    height: 600px;
+    float: left;
+    /* 加阴影效果 */
+
+}
+
+.havebeendone {
+    /* background: #4dd1e9; */
+
+    width: 33%;     /*占据屏幕的1/3*/
+    height: 600px;
+    margin: 0 auto;
+}
+
+.input-contents{
+    /* background: #54a0da; */
+
+    width: 33%;     /* 占据屏幕的1/3 */
+    height: 600px;
+    float: right;
+    margin-top: -600px;
+}
+
+/* alltodos 内容 css 样式设定 */
+.theme {
+    width: 100%;
+    height: 49%;
+    background-image: url(pic/chicago.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.todolist {
+    position: relative;
+    top: 125px;
+    left: 26px;
+    color: white;
+    font-size: 30px;
+}
+.time {
+    position: relative;
+    top: 130px;
+    left: 26px;
+    color: white;
+    font-size: 20px;
+}
+
+.todo-content {
+    margin-top: -46px;
+}
+
+.todo-done, .todo-delete {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.todo-done {
+    background: url("pic/done.png") no-repeat;
+    background-size: contain;
+}
+.todo-delete {
+    background: url("pic/delete.png") no-repeat;
+    background-size: contain;
+}
+.content {
+    position: relative;
+    top: -21px;
+    left: 10px;
+}
+.now {
+    position: relative;
+    top: -21px;
+    left: 101px;
+    font-size: 13px;
+}
+
+.todoCell {
+    padding-top: 6px;
+    margin-top: -13px;
+    border-top: 1px solid lightgray;
+}
+.todoCell:nth-child(1) {
+    border-top: 0px;
+}
+/* 中间栏 已经完成事项布局外观 */
+.tobedone {
+    width: 100%;
+    height: 49%;
+    background: url("pic/sunrise.jpg") no-repeat;
+    background-size: 100%;
+}
+.tobedone .sectitle {
+    position: relative;
+    top: 125px;
+    left: 26px;
+    color: white;
+    font-size: 25px;
+}
+.tobedone .thirdtitle {
+    position: relative;
+    top: 159px;
+    left: -105px;
+    color: white;
+    font-size: 20px;
+}
+
+/* 输入 todo 界面布局 */
+.theme2 {
+    width: 100%;
+    height: 49%;
+    background: url("pic/plouzane.jpg") no-repeat;
+    background-size: 96%;
+}
+.theme2 .sectitle {
+    position: relative;
+    top: 125px;
+    left: 26px;
+    color: white;
+    font-size: 25px;
+}
+.theme2 .thirdtitle {
+    position: relative;
+    top: 159px;
+    left: -82px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#id-input-content {
+    width: 100%;
+    height: 7%;
+    position: relative;
+    display: block;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+}
+#id-addButton {
+    display: block;
+    width: 100%;
+    height: 5%;
+    border: none;
+    background-color: #55bfd7;
+    font-size: 17px;
+    color: white;
+}
+/* 已完成事件 界面布局 */
+.todo-havebeendone .content{
+    display: block;
+    border-top: 1px solid lightgray;
+}
+.todo-havebeendone .content:nth-child(1) {
+    margin-top: 10px;
+    border-top: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
