@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>轮播图</title>
+        <link rel="stylesheet" href="sideshow.css">
+    </head>
+    <body>
+        <div class="sideshow-menu" data-imgs="3", data-active="0">
+            <img id="id-img-0" class="class-img active" src="pic/1.jpg">
+            <img id="id-img-1" class="class-img" src="pic/2.jpg">
+            <img id="id-img-2" class="class-img" src="pic/3.jpg">
+
+            <!-- <img id="former" class="button-img" src="pic/former.png">
+            <img id="next" class="button-img verticalCenterright" src="pic/next.png"> -->
+
+            <button id="former" class="class-button verticalCenterleft"><</button>
+            <button id="next" class="class-button verticalCenterright">></button>
+
+            <div class="dot-indicators " data-dots="3" data-active="0">
+                <div id="id-dot-0" class="bottom-dot red"></div>
+                <div id="id-dot-1" class="bottom-dot "></div>
+                <div id="id-dot-2" class="bottom-dot "></div>
+            </div>
+
+        </div>
+
+
+
+        <script src='default.js'></script>
+        <script src='sideshow.js'></script>
+    </body>
+</html>

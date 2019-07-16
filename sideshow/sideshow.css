@@ -1,0 +1,65 @@
+/* vertical center 垂直居中 */
+/*
+要垂直居中的父元素必须是非 static 元素
+垂直居中的元素设置成 absolute
+再设置 transform：translateY(-50%)  移动自身高度的 50%
+*/
+.sideshow-menu {
+    position: relative;
+    width : 772px;
+}
+
+/* .button-img {
+    width: 25px;
+    height: 25px;
+} */
+
+.verticalCenterright {
+    position: absolute;
+    /* 下一张 按钮靠右侧垂直居中 */
+    /* right: 17px; */
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.verticalCenterleft {
+    position: absolute;
+    /* 下一张 按钮靠右侧垂直居中 */
+    /* right: 17px; */
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.class-img {
+    display: none;
+}
+
+.class-img.active {
+    display: inline-block;
+}
+
+/* .class-button {
+    background-color: RGBA(0, 0, 0, 0.7);
+} */
+
+/* 设置轮播图底下小圆点的 css */
+.bottom-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: white;
+}
+
+.red.bottom-dot {
+    background: red;
+}
+
+.dot-indicators{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
